@@ -15,7 +15,8 @@ export default function Start(){
     const savePlayer = () =>{
         setPlayerArray([...playerArray, {
             playerName: playerName,
-            playerCards: []
+            playerCards: [],
+            mostRecentCard: {}
         }])
         console.log(playerArray);
     }

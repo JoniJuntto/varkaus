@@ -2,6 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Start from './Start';
 import Game from './Game';
+import Dealed from './Dealed';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Start />}/>
           <Route path="/game" element={<Game />}/>
+          <Route path="/deal" element={<Dealed />}/>
         </Routes>
       </Router>
     </div>
